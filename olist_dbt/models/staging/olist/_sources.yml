@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: my-project-001-487905
+    schema: olist_dw
+    tables:
+      - name: stg_orders
+      - name: stg_order_items
+      - name: stg_customers
+      - name: stg_products
+      - name: stg_sellers
+      - name: stg_order_payments
+      - name: stg_order_reviews
+      - name: stg_geolocation
+      - name: stg_category_translation
